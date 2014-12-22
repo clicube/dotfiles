@@ -1,0 +1,14 @@
+startup_message off
+
+defscrollback 10000
+
+defbce on
+term xterm-256color
+altscreen on
+
+hardstatus on
+hardstatus alwayslastline " %-w%{= db} %n %t %{-}%+w"
+
+autodetach on
+
+termcapinfo xterm* ti@:te@

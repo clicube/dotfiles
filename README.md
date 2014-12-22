@@ -1,5 +1,3 @@
-    cd
-    git clone git@github.com:clicube/dotfiles.git .dotfiles/
-    cd .dotfiles
-    rake install
+    git clone git@github.com:clicube/dotfiles.git ~/.dotfiles/
+    ruby ~/.dotfiles/install.rb
 
