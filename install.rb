@@ -1,4 +1,4 @@
-Files = ["zshrc", "vimrc","screenrc","gemrc"]
+Files = ["zshrc", "vimrc","screenrc","gemrc","gitconfig"]
 
 Dir.chdir File.dirname(__FILE__)
 
